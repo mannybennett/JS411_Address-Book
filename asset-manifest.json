@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/JS411_Address-Book/static/css/main.3f1f7fbd.css",
+    "main.js": "/JS411_Address-Book/static/js/main.63b234db.js",
+    "static/js/787.6721cdb3.chunk.js": "/JS411_Address-Book/static/js/787.6721cdb3.chunk.js",
+    "index.html": "/JS411_Address-Book/index.html",
+    "main.3f1f7fbd.css.map": "/JS411_Address-Book/static/css/main.3f1f7fbd.css.map",
+    "main.63b234db.js.map": "/JS411_Address-Book/static/js/main.63b234db.js.map",
+    "787.6721cdb3.chunk.js.map": "/JS411_Address-Book/static/js/787.6721cdb3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f1f7fbd.css",
+    "static/js/main.63b234db.js"
+  ]
+}
