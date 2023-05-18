@@ -18,6 +18,8 @@ function UserCard() {
     fetchUserData();
   }, []);
 
+  //BUTTON TEXT NEEDS CORRECTING LINE 37
+
   return (
     <div className="container">
       {arrayOfUsers.map((user, idx) => (
@@ -32,7 +34,7 @@ function UserCard() {
               setActiveUser({...user, idx})
               clicked ? setClick(false) : setClick(true)
             }} variant="danger">
-            {!clicked && idx === activeUser.idx ? "Show Details" : "Hide Details"}
+            {clicked && idx === activeUser.idx ? "Hide Details" : "Show Details"}
           </Button>
         </Card.Body>
       </Card>
