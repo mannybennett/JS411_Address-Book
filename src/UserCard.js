@@ -18,8 +18,6 @@ function UserCard() {
     fetchUserData();
   }, []);
 
-  //BUTTON TEXT NEEDS CORRECTING LINE 37
-
   return (
     <div className="container">
       {arrayOfUsers.map((user, idx) => (
